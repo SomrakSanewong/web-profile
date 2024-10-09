@@ -1,0 +1,99 @@
+#title{
+    font-family: 'Prompt';
+    font-size: 42px;
+    color: white;
+    background-color: #cd5c08;
+    text-align: center;    
+}
+
+body #profile{
+    background-image: url(profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#content{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+body {
+    background-color: #f5e8b7;
+}
+#personal{
+    font-family: 'Prompt';
+    font-size: 24px;
+    color: white;
+    background-color: #6a9c89;
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 50px;
+}
+#education{
+    font-family: 'Prompt';
+    font-size: 24px;
+    color: white;
+    background-color: #6a9c89;
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 50px;
+}
+#activities{
+    font-family: 'Prompt';
+    font-size: 24px;
+    color: white;
+    background-color: #6a9c89;
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 50px;
+}
+#skill{
+        font-family: 'Prompt';
+        font-size: 24px;
+        color: white;
+        background-color: #6a9c89;
+        padding: 10px;
+        margin: 1rem;
+        border-radius: 50px;
+    }
+span{
+    font-family:'Sarabun';
+    font-size: 16px;
+    opacity: 0.8;
+    color:#333;
+}
+h1{
+    font-family:'Sarabun';
+    font-size: 18px;
+    color:#333;
+}
+small{
+    font-family:'Prompt';
+    font-size: 16px;
+    color:#c1d8c3;
+}
+.gallery img{
+    width: 150px;
+    cursor: pointer;
+}
+.gallery :hover{
+    width: 300px;
+}
+.skill div{
+    width: 13px;
+    height: 13px;
+    background-color: none;
+    border: solid 1px black;
+    display: inline-block;
+}
+.skill .active{
+    width: 13px;
+    height: 13px;
+    background-color: orange;
+    border: solid 1px black;
+    display: inline-block;
+    
+}
